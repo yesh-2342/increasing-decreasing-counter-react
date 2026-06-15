@@ -13,9 +13,9 @@ const RESET=()=>{
 return(<div className='container'>
     <h1 className='count'>{count}</h1>
     <div className='button-group'>
-      <button onClick={handleclick} className='btn'>+</button>
-      <button onClick={handleclick1} className='btn'>-</button>
-      <button onClick={RESET} className='btn'>Reset</button>
+    <button onClick={handleclick} className='btn'>+</button>
+    <button onClick={handleclick1} className='btn'>-</button>
+    <button onClick={RESET} className='btn'>Reset</button>
     </div>
 </div>)
 
